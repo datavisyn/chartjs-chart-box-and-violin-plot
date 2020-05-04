@@ -1,11 +1,12 @@
 {
   "name": "chartjs-chart-box-and-violin-plot",
   "description": "Chart.js module for charting boxplots",
+  "homepage": "https://datavisyn.io",
   "version": "2.3.1-SNAPSHOT",
   "author": {
-    "name": "datavisyn",
+    "name": "datavisyn GmbH",
     "email": "contact@datavisyn.io",
-    "url": "https://www.datavisyn.io"
+    "url": "https://datavisyn.io"
   },
   "contributors": [{
       "name": "Samuel Gratzl",
@@ -18,7 +19,7 @@
       "url": "https://github.com/sluger"
     }
   ],
-  "license": "MIT",
+  "license": "BSD-3-Clause",
   "repository": {
     "type": "git",
     "url": "https://github.com/datavisyn/chartjs-chart-box-and-violin-plot.git"

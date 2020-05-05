@@ -287,10 +287,9 @@ import "chartjs-chart-box-and-violin-plot/build/Chart.BoxPlot.js";
 
 ***
 
-<div style="display:flex;align-items:center">
-  <a href="http://datavisyn.io"><img src="https://user-images.githubusercontent.com/1711080/37700685-bcbb18c6-2cec-11e8-9b6f-f49c9ef6c167.png" align="left" width="50px" hspace="10" vspace="6"></a>
-  Developed by &nbsp;<strong><a href="http://datavisyn.io">datavisyn</a></strong>.
-</div>
+<a href="https://www.datavisyn.io"><img src="https://www.datavisyn.io/img/logos/datavisyn-d-logo.png" align="left" width="100px" hspace="10" vspace="6"></a>
+This repository is part of the **Target Discovery Platform** (TDP). For tutorials, API docs, and more information about the build and deployment process, see the [documentation page](https://wiki.datavisyn.io).
+
 
 
 [datavisyn-image]: https://img.shields.io/badge/datavisyn-io-black.svg

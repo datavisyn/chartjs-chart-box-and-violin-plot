@@ -106,12 +106,14 @@ const BoxAndWiskers = Chart.elements.BoxAndWhiskers = ArrayElementBase.extend({
     ctx.lineTo(x0 + width, boxplot.median);
 
     // Draw the segment line
-    if (vm.segmentColor) {
-      ctx.strokeStyle = vm.segmentColor;
+    if (boxplot.segment != null) {
+      if (vm.segmentColor) {
+        ctx.strokeStyle = vm.segmentColor;
+      }
+      ctx.beginPath();
+      ctx.moveTo(x0, boxplot.segment);
+      ctx.lineTo(x0 + width, boxplot.segment);
     }
-    ctx.beginPath();
-    ctx.moveTo(x0, boxplot.segment);
-    ctx.lineTo(x0 + width, boxplot.segment);
 
     // fill the part below the median with lowerColor
     if (vm.lowerColor) {

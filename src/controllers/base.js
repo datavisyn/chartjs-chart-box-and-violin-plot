@@ -26,7 +26,7 @@ export function toFixed(value) {
 }
 
 const configKeys = ['outlierRadius', 'itemRadius', 'itemStyle', 'itemBackgroundColor', 'itemBorderColor', 'outlierColor', 'medianColor', 'segmentColor', 'hitPadding', 'outlierHitRadius', 'lowerColor'];
-const configKeyIsColor = [false, false, false, true, true, true, true, false, false, true];
+const configKeyIsColor = [false, false, false, true, true, true, true, true, false, false, true];
 
 const array = {
   _elementOptions() {

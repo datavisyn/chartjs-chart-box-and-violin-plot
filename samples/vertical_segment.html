@@ -36,22 +36,14 @@
         label: 'Dataset 1',
         backgroundColor: color(window.chartColors.red).alpha(0.5).rgbString(),
         borderColor: window.chartColors.red,
-        borderWidth: 5,
+        borderWidth: 1,
+        medianColor:"green",
         segmentColor:'blue',
         data: samples.boxplots({count: 7, random: random}).map((x)=>{
             x.segment = 45;
             return x
         }),
-        outlierColor: '#999999',
-        lowerColor: '#461e7d'
-      }, {
-        label: 'Dataset 2',
-        backgroundColor: color(window.chartColors.blue).alpha(0.5).rgbString(),
-        borderColor: window.chartColors.blue,
-        borderWidth: 1,
-        data: samples.boxplotsArray({count: 7, random: random}),
-        outlierColor: '#999999',
-        lowerColor: '#461e7d'
+        outlierColor: '#999999'
       }]
 
     };

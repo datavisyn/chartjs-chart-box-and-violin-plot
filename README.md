@@ -1,5 +1,5 @@
 # Chart.js Box and Violin Plot
-[![datavisyn][datavisyn-image]][datavisyn-url] [![NPM Package][npm-image]][npm-url] [![CircleCI][circleci-image]][circleci-url]
+[![Target Discovery Platform][tdp-image]][tdp-url] [![NPM Package][npm-image]][npm-url] [![CircleCI][circleci-image]][circleci-url]
 
 Chart.js module for charting box and violin plots. **Works only with Chart.js >= 2.8.0**
 
@@ -287,14 +287,13 @@ import "chartjs-chart-box-and-violin-plot/build/Chart.BoxPlot.js";
 
 ***
 
-<div style="display:flex;align-items:center">
-  <a href="http://datavisyn.io"><img src="https://user-images.githubusercontent.com/1711080/37700685-bcbb18c6-2cec-11e8-9b6f-f49c9ef6c167.png" align="left" width="50px" hspace="10" vspace="6"></a>
-  Developed by &nbsp;<strong><a href="http://datavisyn.io">datavisyn</a></strong>.
-</div>
+<a href="https://www.datavisyn.io"><img src="https://www.datavisyn.io/img/logos/datavisyn-logo.png" align="left" width="200px" hspace="10" vspace="6"></a>
+This repository is part of the **Target Discovery Platform** (TDP). For tutorials, API docs, and more information about the build and deployment process, see the [documentation page](https://wiki.datavisyn.io).
 
 
-[datavisyn-image]: https://img.shields.io/badge/datavisyn-io-black.svg
-[datavisyn-url]: http://datavisyn.io
+
+[tdp-image]: https://img.shields.io/badge/Target%20Discovery%20Platform-Library-violet.svg
+[tdp-url]: http://datavisyn.io
 [npm-image]: https://badge.fury.io/js/chartjs-chart-box-and-violin-plot.svg
 [npm-url]: https://npmjs.org/package/chartjs-chart-box-and-violin-plot
 [circleci-image]: https://circleci.com/gh/datavisyn/chartjs-chart-box-and-violin-plot.svg?style=shield

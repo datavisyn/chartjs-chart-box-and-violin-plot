@@ -1,4 +1,4 @@
-# Chart.js Box and Violin Plot - DEPRECATED
+# DEPRECATED: Chart.js Box and Violin Plot
 [![Target Discovery Platform][tdp-image]][tdp-url] [![NPM Package][npm-image]][npm-url] [![CircleCI][circleci-image]][circleci-url]
 
 Chart.js module for charting box and violin plots. **Works only with Chart.js >= 2.8.0**
